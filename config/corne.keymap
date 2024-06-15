@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5               &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
-&none  &kp F11  &kp F12  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &trans   &none
-&none  &trans   &trans   &trans  &trans  &kp LC(BACKSPACE)    &trans  &trans  &trans  &trans  &trans   &none
-                         &trans  &trans  &trans               &trans  &trans  &trans
+&none  &kp F1         &kp F2     &kp F3     &kp F4             &kp F5             &kp F6         &kp F7  &kp F8  &kp F9  &kp F10  &none
+&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)  &kp LS(LC(C))      &kp LC(LS(R))      &trans         &trans  &trans  &trans  &kp F11  &none
+&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME   &kp END            &kp PRINTSCREEN    &trans         &trans  &trans  &trans  &kp F12  &none
+                                 &trans     &kp LC(BACKSPACE)  &kp LS(ENTER)      &kp LC(ENTER)  &trans  &trans
             >;
         };
     };
