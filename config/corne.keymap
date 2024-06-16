@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1        &kp N2        &kp N3                &kp N4                &kp N5           &kp N6        &kp N7                  &kp N8                  &kp N9  &kp N0      &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &kt UP                &kp LEFT_ARROW        &kp LC(LS(R))    &out OUT_BLE  &kp RIGHT               &kp DOWN_ARROW          &trans  &kp LA(F4)  &none
-&none  &bt BT_CLR    &bt BT_SEL 2  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &trans           &out OUT_USB  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &trans  &trans      &none
-                                   &kp LEFT_GUI          &kp LG(LCTRL)         &kp LALT         &kp LSHFT     &kp LA(F13)             &trans
+&none  &kp N1       &kp N2         &kp N3                &kp N4                &kp N5                  &kp N6             &kp N7                  &kp N8                  &kp N9     &kp N0     &none
+&none  &kp PERCENT  &kp LC(LS(R))  &kt UP                &kp LEFT_ARROW        &kp LEFT_PARENTHESIS    &kp RPAR           &kp RIGHT               &kp DOWN_ARROW          &kp MINUS  &kp PLUS   &none
+&none  &kp CARET    &kp LA(F4)     &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_BRACKET        &kp RIGHT_BRACKET  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &kp EQUAL  &kp ASTRK  &none
+                                   &kp LEFT_GUI          &kp LG(LCTRL)         &kp LALT                &kp LSHFT          &kp LA(F13)             &trans
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp F1         &kp F2     &kp F3     &kp F4             &kp F5             &kp F6         &kp F7       &kp F8  &kp F9  &kp F10  &none
-&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)  &kp LS(LC(C))      &kp LC(LS(R))      &trans         &trans       &trans  &trans  &kp F11  &none
-&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME   &kp END            &kp PRINTSCREEN    &trans         &trans       &trans  &trans  &kp F12  &none
-                                 &trans     &kp LC(BACKSPACE)  &kp LS(ENTER)      &kp LC(ENTER)  &kp LA(F13)  &trans
+&none  &kp F1         &kp F2     &kp F3     &kp F4             &kp F5             &kp F6         &kp F7        &kp F8        &kp F9      &kp F10  &none
+&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)  &kp LS(LC(C))      &kp LC(LS(R))      &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp F11  &none
+&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME   &kp END            &kp PRINTSCREEN    &trans         &out OUT_USB  &out OUT_BLE  &trans      &kp F12  &none
+                                 &trans     &kp LC(BACKSPACE)  &kp LS(ENTER)      &kp LC(ENTER)  &kp LA(F13)   &trans
             >;
         };
     };
