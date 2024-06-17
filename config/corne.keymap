@@ -40,7 +40,7 @@
 &none  &kp N1       &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9     &kp N0     &none
 &none  &kp PERCENT  &kp HASH  &kt UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp LEFT_BRACKET       &kp RIGHT               &kp DOWN_ARROW          &kp MINUS  &kp PLUS   &none
 &none  &kp CARET    &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &kp EQUAL  &kp ASTRK  &none
-                              &kp LEFT_GUI          &kp LALT              &kp LCTRL               &kp LSHFT              &trans                  &kp LA(F13)
+                              &kp LEFT_GUI          &kp LALT              &kp LCTRL               &trans                 &kp BACKSPACE           &kp LA(F13)
             >;
         };
 
@@ -61,10 +61,10 @@
 
         more_stuff {
             bindings = <
-&trans  &kp LC(TAB)  &trans  &trans  &kp LS(LC(R))  &kp LS(LC(T))     &kp LG(LA(I))     &kp LA(LG(R))  &kp LA(LG(V))  &kp LA(LG(D))  &trans  &trans
-&trans  &trans       &trans  &trans  &trans         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp GRAVE      &trans         &trans         &trans  &trans
-&trans  &kp LA(F4)   &trans  &trans  &trans         &kp LESS_THAN     &kp GREATER_THAN  &trans         &trans         &trans         &trans  &trans
-                             &trans  &trans         &trans            &trans            &trans         &trans
+&trans  &kp LC(TAB)           &trans  &trans  &kp LS(LC(R))  &kp LS(LC(T))     &kp LG(LA(I))     &kp LA(LG(R))  &kp LA(LG(V))  &kp LA(LG(D))  &trans  &trans
+&trans  &kp LC(LS(NUMBER_4))  &trans  &trans  &trans         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp GRAVE      &trans         &trans         &trans  &trans
+&trans  &kp LA(F4)            &trans  &trans  &trans         &kp LESS_THAN     &kp GREATER_THAN  &trans         &trans         &trans         &trans  &trans
+                                      &trans  &trans         &trans            &trans            &trans         &trans
             >;
         };
     };
