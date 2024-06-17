@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
 / {
@@ -37,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1       &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9     &kp N0     &none
-&none  &kp PERCENT  &kp HASH  &kt UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp LEFT_BRACKET       &kp RIGHT               &kp DOWN_ARROW          &kp MINUS  &kp PLUS   &none
-&none  &kp CARET    &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &kp EQUAL  &kp ASTRK  &none
-                              &kp LEFT_GUI          &kp LALT              &kp LCTRL               &trans                 &kp BACKSPACE           &kp LA(F13)
+&none  &kp N1     &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9     &kp N0     &none
+&none  &kp AT     &kp HASH  &kp UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT               &kp DOWN_ARROW          &kp MINUS  &kp PLUS   &none
+&none  &kp CARET  &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &kp EQUAL  &kp ASTRK  &none
+                            &kp LEFT_GUI          &kp LALT              &kp LCTRL               &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
             >;
         };
 
@@ -52,17 +51,17 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp F1         &kp F2     &kp F3     &kp F4             &kp F5             &kp F6         &kp F7        &kp F8        &kp F9      &kp F10  &none
-&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)  &kp LS(LC(C))      &kp LC(LS(R))      &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp F11  &none
-&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME   &kp END            &kp PRINTSCREEN    &trans         &out OUT_USB  &out OUT_BLE  &kp INS     &kp F12  &none
-                                 &trans     &kp LC(BACKSPACE)  &kp LS(ENTER)      &kp LC(ENTER)  &kp LA(F13)   &kp UNDER
+&none  &kp F1         &kp F2     &kp F3     &kp F4             &kp F5             &kp F6         &kp F7        &kp F8           &kp F9      &kp F10  &none
+&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)  &kp LS(LC(C))      &kp LC(LS(R))      &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_CLR  &kp F11  &none
+&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME   &kp END            &kp PRINTSCREEN    &trans         &out OUT_USB  &out OUT_BLE     &kp INS     &kp F12  &none
+                                 &kp UNDER  &kp LC(BACKSPACE)  &kp LS(ENTER)      &kp LC(ENTER)  &kp LA(F13)   &kp RIGHT_SHIFT
             >;
         };
 
         more_stuff {
             bindings = <
 &trans  &kp LC(TAB)           &trans  &trans  &kp LS(LC(R))  &kp LS(LC(T))     &kp LG(LA(I))     &kp LA(LG(R))  &kp LA(LG(V))  &kp LA(LG(D))  &trans  &trans
-&trans  &kp LC(LS(NUMBER_4))  &trans  &trans  &trans         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp GRAVE      &trans         &trans         &trans  &trans
+&trans  &kp LC(LS(NUMBER_4))  &trans  &trans  &trans         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp GRAVE      &kp PERCENT    &kp SEMI       &trans  &trans
 &trans  &kp LA(F4)            &trans  &trans  &trans         &kp LESS_THAN     &kp GREATER_THAN  &trans         &trans         &trans         &trans  &trans
                                       &trans  &trans         &trans            &trans            &trans         &trans
             >;
