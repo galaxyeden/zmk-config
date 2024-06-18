@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E                 &kp R          &kp T        &kp Y                &kp U        &kp I               &kp O    &lt 3 P   &none
-&none  &kp A  &kp S  &kp D                 &kp F          &kp G        &kp H                &kp J        &kp K               &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C                 &kp V          &kp B        &lt 2 N              &kp M        &mt LEFT_ALT COMMA  &kp DOT  &kp FSLH  &none
-                     &mt LEFT_COMMAND DEL  &mt LCTRL TAB  &kp SPACE    &mt RSHFT BACKSPACE  &lt 1 ENTER  &mt RALT ESCAPE
+&none  &kp Q  &kp W  &kp E                 &kp R      &kp T            &kp Y        &kp U                      &kp I               &kp O    &lt 3 P   &none
+&none  &kp A  &kp S  &kp D                 &kp F      &kp G            &kp H        &kp J                      &kp K               &kp L    &kp SEMI  &none
+&none  &kp Z  &kp X  &kp C                 &kp V      &kp B            &lt 2 N      &kp M                      &mt LEFT_ALT COMMA  &kp DOT  &kp FSLH  &none
+                     &mt LEFT_COMMAND DEL  &kp SPACE  &mt LCTRL TAB    &lt 1 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt RALT ESCAPE
             >;
         };
 
@@ -39,7 +39,7 @@
 &none  &kp N1     &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9     &kp N0           &none
 &none  &kp AT     &kp HASH  &kp UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT               &kp DOWN_ARROW          &kp MINUS  &kp PLUS         &none
 &none  &kp CARET  &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &kp EQUAL  &mt LCTRL ASTRK  &none
-                            &kp LEFT_GUI          &kp LALT              &lt 4 UNDER             &kp BACKSPACE          &trans                  &kp RIGHT_SHIFT
+                            &kp LEFT_GUI          &kp LALT              &lt 4 UNDER             &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
             >;
         };
 
@@ -72,7 +72,7 @@
 &trans  &kp KP_ENTER  &kp KP_N7  &kp KP_N8        &kp KP_NUMBER_9  &kp C_VOLUME_DOWN       &kp C_VOLUME_UP       &kp C_MUTE        &kp K_CONTEXT_MENU  &kp KP_NUMLOCK   &kp C_SLEEP      &trans
 &trans  &kp KP_N0     &kp KP_N4  &kp KP_N5        &kp KP_N6        &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp KP_DIVIDE     &kp KP_MULTIPLY     &kp KP_SUBTRACT  &kp KP_PLUS      &trans
 &trans  &kp KP_DOT    &kp KP_N1  &kp KP_N2        &kp KP_N3        &kp C_PREV              &kp C_NEXT            &kp C_PLAY_PAUSE  &kp LC(LG(F13))     &kp LC(LG(F18))  &kp LS(LG(F23))  &trans
-                                 &kp LC(LG(F14))  &kp LC(LG(F15))  &trans                  &trans                &kp LC(LG(F16))   &kp LC(LG(F17))
+                                 &kp LC(LG(F14))  &kp LC(LG(F15))  &trans                  &trans                &kp LC(LS(F16))   &kp LC(LG(F17))
             >;
         };
     };
