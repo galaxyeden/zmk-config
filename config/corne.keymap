@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1     &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9          &kp N0           &none
-&none  &kp AT     &kp HASH  &kp UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT               &kp DOWN_ARROW          &kp MINUS       &kp PLUS         &none
-&none  &kp CARET  &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &mt LALT EQUAL  &mt LCTRL ASTRK  &none
-                            &kp LCTRL             &kp SPACE             &lt 4 UNDER             &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
+&none  &kp N1           &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9          &kp N0           &none
+&none  &kp AT           &kp HASH  &kp UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT               &kp DOWN_ARROW          &kp MINUS       &kp PLUS         &none
+&none  &mt LCTRL CARET  &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &mt LALT EQUAL  &mt LCTRL ASTRK  &none
+                                  &to 5                 &kp SPACE             &lt 4 UNDER             &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
             >;
         };
 
@@ -78,10 +78,10 @@
 
         firefly_code {
             bindings = <
-&trans  &kp Y  &kp L  &kp W  &kp P      &kp B    &kp J      &kp F     &kp O            &kp U      &kp SQT  &trans
-&trans  &kp C  &kp R  &kp S  &kp T      &kp G    &kp M      &kp N     &kp E            &kp I      &kp A    &trans
-&trans  &kp Q  &kp X  &kp V  &kp D      &kp K    &kp Z      &kp H     &kp FSLH         &kp COMMA  &kp DOT  &trans
-                      &to 5  &kp SPACE  &to 0    &kp ENTER  &kp BSPC  &mt RALT ESCAPE
+&trans  &kp Y  &kp L  &kp W  &kp P      &kp B      &kp J      &kp F     &kp O            &kp U      &kp SQT  &trans
+&trans  &kp C  &kp R  &kp S  &kp T      &kp G      &kp M      &kp N     &kp E            &kp I      &kp A    &trans
+&trans  &kp Q  &kp X  &kp V  &kp D      &kp K      &kp Z      &kp H     &kp FSLH         &kp COMMA  &kp DOT  &trans
+                      &to 0  &kp SPACE  &kp TAB    &kp ENTER  &kp BSPC  &mt RALT ESCAPE
             >;
         };
     };
