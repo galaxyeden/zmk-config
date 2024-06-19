@@ -21,10 +21,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E                 &kp R      &kp T            &kp Y        &kp U                      &kp I               &kp O         &lt 3 P   &none
+&none  &kp Q  &kp W  &kp E                 &kp R      &kp T            &kp Y        &kp U                      &kp I               &kp O         &lt 4 P   &none
 &none  &kp A  &kp S  &kp D                 &kp F      &kp G            &kp H        &kp J                      &kp K               &kp L         &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C                 &kp V      &kp B            &lt 2 N      &kp M                      &mt LEFT_ALT COMMA  &lt 5 PERIOD  &kp FSLH  &none
-                     &mt LEFT_COMMAND DEL  &kp SPACE  &mt LCTRL TAB    &lt 1 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt RALT ESCAPE
+&none  &kp Z  &kp X  &kp C                 &kp V      &kp B            &lt 3 N      &kp M                      &mt LEFT_ALT COMMA  &lt 1 PERIOD  &kp FSLH  &none
+                     &mt LEFT_COMMAND DEL  &kp SPACE  &mt LCTRL TAB    &lt 2 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt RALT ESCAPE
+            >;
+        };
+
+        firefly_code {
+            bindings = <
+&trans  &kp Y  &kp L  &kp W   &kp P   &kp B     &kp J    &kp F   &kp O           &kp U        &lt 4 APOS  &trans
+&trans  &kp C  &kp R  &kp S   &kp T   &kp G     &kp M    &kp N   &kp E           &kp I        &kp A       &trans
+&trans  &kp Q  &kp X  &kp V   &kp D   &kp K     &lt 3 Z  &kp H   &mt RALT SLASH  &lt 0 COMMA  &kp DOT     &trans
+                      &trans  &trans  &trans    &trans   &trans  &trans
             >;
         };
 
@@ -39,7 +48,7 @@
 &none  &kp N1           &kp N2    &kp N3                &kp N4                &kp N5                  &kp N6                 &kp N7                  &kp N8                  &kp N9          &kp N0           &none
 &none  &kp AT           &kp HASH  &kp UP                &kp LEFT_ARROW        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT               &kp DOWN_ARROW          &kp MINUS       &kp PLUS         &none
 &none  &mt LCTRL CARET  &kp AMPS  &kp LC(LA(UP_ARROW))  &kp LS(LA(UP_ARROW))  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LS(LA(DOWN_ARROW))  &kp LA(LC(DOWN_ARROW))  &mt LALT EQUAL  &mt LCTRL ASTRK  &none
-                                  &to 5                 &kp SPACE             &lt 4 UNDER             &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
+                                  &tog 1                &kp SPACE             &lt 5 UNDER             &trans                 &kp BACKSPACE           &kp RIGHT_SHIFT
             >;
         };
 
@@ -73,15 +82,6 @@
 &trans  &kp KP_N0     &kp KP_N4  &kp KP_N5        &kp KP_N6        &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp KP_DIVIDE     &kp KP_MULTIPLY     &kp KP_SUBTRACT  &kp KP_PLUS      &trans
 &trans  &kp KP_DOT    &kp KP_N1  &kp KP_N2        &kp KP_N3        &kp C_PREV              &kp C_NEXT            &kp C_PLAY_PAUSE  &kp LC(LG(F13))     &kp LC(LG(F18))  &kp LS(LG(F23))  &trans
                                  &kp LC(LG(F14))  &kp LC(LG(F15))  &trans                  &trans                &kp LC(LS(F16))   &kp LC(LG(F17))
-            >;
-        };
-
-        firefly_code {
-            bindings = <
-&trans  &kp Y  &kp L  &kp W  &kp P      &kp B      &kp J      &kp F     &kp O            &kp U      &kp SQT  &trans
-&trans  &kp C  &kp R  &kp S  &kp T      &kp G      &kp M      &kp N     &kp E            &kp I      &kp A    &trans
-&trans  &kp Q  &kp X  &kp V  &kp D      &kp K      &kp Z      &kp H     &kp FSLH         &kp COMMA  &kp DOT  &trans
-                      &to 0  &kp SPACE  &kp TAB    &kp ENTER  &kp BSPC  &mt RALT ESCAPE
             >;
         };
     };
