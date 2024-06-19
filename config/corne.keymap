@@ -69,10 +69,10 @@
 
         more_stuff {
             bindings = <
-&trans  &kp EXCL              &kp LESS_THAN      &kp LC(TAB)  &kp LS(LC(R))  &kp LS(LC(T))       &kp LG(LA(I))  &kp LA(LG(R))  &kp LA(LG(V))  &kp LA(LG(D))  &trans  &trans
-&trans  &kp LC(LS(NUMBER_4))  &kp RA(MINUS)      &kp PERCENT  &kp GRAVE      &kp SEMI            &kp COLON      &trans         &trans         &trans         &trans  &trans
-&trans  &kp LA(F4)            &kp RA(RS(MINUS))  &trans       &trans         &kp GREATER_THAN    &kp QUESTION   &trans         &trans         &trans         &trans  &trans
-                                                 &trans       &trans         &trans              &trans         &trans         &trans
+&trans  &kp EXCL              &kp LESS_THAN      &kp LC(TAB)  &kp LS(LC(R))  &kp LS(LC(T))          &kp LG(LA(I))      &kp LA(LG(R))  &kp LA(LG(V))  &kp LA(LG(D))  &trans  &trans
+&trans  &kp LC(LS(NUMBER_4))  &kp RA(MINUS)      &kp PERCENT  &kp GRAVE      &kp SEMI               &kp COLON          &trans         &trans         &trans         &trans  &trans
+&trans  &kp LA(F4)            &kp RA(RS(MINUS))  &trans       &trans         &kp GREATER_THAN       &kp QUESTION       &trans         &trans         &trans         &trans  &trans
+                                                 &trans       &trans         &kp LC(LS(PAGE_UP))    &kp LC(PAGE_DOWN)  &trans         &trans
             >;
         };
 
