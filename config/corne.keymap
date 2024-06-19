@@ -69,10 +69,10 @@
 
         more_stuff {
             bindings = <
-&trans  &kp EXCL              &kp LESS_THAN      &kp LC(TAB)               &kp LS(LC(R))             &kp LS(LC(T))       &kp LG(LA(I))  &kp LA(LG(R))              &kp LA(LG(V))               &kp LA(LG(D))  &trans  &trans
-&trans  &kp LC(LS(NUMBER_4))  &kp RA(MINUS)      &kp PERCENT               &kp LC(LEFT_BRACKET)      &kp SEMI            &kp COLON      &kp LC(RIGHT_BRACKET)      &kp PRINTSCREEN             &trans         &trans  &trans
-&trans  &kp LA(F4)            &kp RA(RS(MINUS))  &kp GRAVE                 &kp LC(LS(LEFT_BRACKET))  &kp GREATER_THAN    &kp QUESTION   &kp LC(LS(RIGHT_BRACKET))  &trans                      &trans         &trans  &trans
-                                                 &kp LC(LA(LS(UP_ARROW)))  &kp LC(LS(TAB))           &kp LS(LG(TAB))     &kp LG(TAB)    &kp LC(TAB)                &kp LC(LA(LS(DOWN_ARROW)))
+&trans  &kp EXCL              &kp LESS_THAN      &kp GRAVE                 &kp LS(LC(R))             &kp LS(LC(T))                &kp LG(LA(I))      &kp LA(LG(R))              &kp LA(LG(V))               &kp LA(LG(D))  &trans  &trans
+&trans  &kp LC(LS(NUMBER_4))  &kp RA(MINUS)      &kp PERCENT               &kp LC(LEFT_BRACKET)      &kp SEMI                     &kp COLON          &kp LC(RIGHT_BRACKET)      &kp PRINTSCREEN             &trans         &trans  &trans
+&trans  &kp LA(F4)            &kp RA(RS(MINUS))  &kp TILDE                 &kp LC(LS(LEFT_BRACKET))  &kp GREATER_THAN             &kp QUESTION       &kp LC(LS(RIGHT_BRACKET))  &trans                      &trans         &trans  &trans
+                                                 &kp LC(LA(LS(UP_ARROW)))  &kp LC(LS(TAB))           &mt BACKSPACE LG(LS(TAB))    &mt RSHFT LG(TAB)  &kp LC(TAB)                &kp LC(LA(LS(DOWN_ARROW)))
             >;
         };
 
