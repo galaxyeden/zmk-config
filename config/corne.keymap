@@ -61,8 +61,8 @@
 
             bindings = <
 &none  &kp F1         &kp F2     &kp F3             &kp F4             &kp F5               &kp F6         &kp F7        &kp F8           &kp F9      &kp F10  &none
-&none  &kp PAGE_UP    &kp LC(A)  &kp LC(C)          &kp LS(LC(C))      &kp LC(LS(R))        &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_CLR  &kp F11  &none
-&none  &kp PAGE_DOWN  &kp LC(X)  &kp HOME           &kp END            &kp LC(LG(SPACE))    &trans         &out OUT_USB  &out OUT_BLE     &kp INS     &kp F12  &none
+&none  &kp BACKSLASH  &kp LC(A)  &kp LC(C)          &kp LS(LC(C))      &kp LC(LS(R))        &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_CLR  &kp F11  &none
+&none  &kp PIPE       &kp LC(X)  &kp HOME           &kp END            &kp LC(LG(SPACE))    &trans         &out OUT_USB  &out OUT_BLE     &kp INS     &kp F12  &none
                                  &mt LEFT_GUI CAPS  &kp LC(BACKSPACE)  &kp LS(ENTER)        &kp LC(ENTER)  &kp LA(F13)   &kp RIGHT_SHIFT
             >;
         };
@@ -87,10 +87,10 @@
 
         more_navigation {
             bindings = <
-&trans  &trans                &trans                &kp LC(LS(R))           &kp LG(LC(Z))   &kp LC(GRAVE)         &trans         &kp LC(LG(U))  &trans             &trans  &trans  &trans
-&trans  &trans                &trans                &kp LC(LS(PERIOD))      &kp LC(LS(F))   &kp LS(LC(G))         &trans         &trans         &trans             &trans  &trans  &trans
-&trans  &kp LC(LS(NUMBER_5))  &kp LC(LS(NUMBER_6))  &kp LC(LS(N9))          &kp LC(LS(N7))  &kp LC(LS(N8))        &trans         &trans         &trans             &trans  &trans  &trans
-                                                    &kp LC(LS(LEFT_ARROW))  &trans          &kp LG(LEFT_ARROW)    &kp LG(RIGHT)  &trans         &kp LC(LS(RIGHT))
+&trans  &kp LALT              &kp LCTRL             &kp LC(LS(R))           &kp LG(LC(Z))   &kp LC(GRAVE)         &trans         &kp LC(LG(U))  &trans             &kp RIGHT_GUI  &kp RALT  &trans
+&trans  &trans                &trans                &kp LC(LS(PERIOD))      &kp LC(LS(F))   &kp LS(LC(G))         &trans         &trans         &trans             &trans         &trans    &trans
+&trans  &kp LC(LS(NUMBER_5))  &kp LC(LS(NUMBER_6))  &kp LC(LS(N9))          &kp LC(LS(N7))  &kp LC(LS(N8))        &trans         &trans         &trans             &trans         &trans    &trans
+                                                    &kp LC(LS(LEFT_ARROW))  &kp PG_UP       &kp LG(LEFT_ARROW)    &kp LG(RIGHT)  &kp PG_DN      &kp LC(LS(RIGHT))
             >;
         };
     };
