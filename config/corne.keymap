@@ -63,7 +63,7 @@
 &none  &kp F1         &kp F2     &kp F3             &kp F4             &kp F5               &kp F6         &kp F7        &kp F8           &kp F9      &kp F10  &none
 &none  &kp BACKSLASH  &kp LC(A)  &kp LC(C)          &kp LS(LC(C))      &kp LC(LS(R))        &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_CLR  &kp F11  &none
 &none  &kp PIPE       &kp LC(X)  &kp HOME           &kp END            &kp LC(LG(SPACE))    &trans         &out OUT_USB  &out OUT_BLE     &kp INS     &kp F12  &none
-                                 &mt LEFT_GUI CAPS  &kp LC(BACKSPACE)  &kp LS(ENTER)        &kp LC(ENTER)  &kp LA(F13)   &kp RIGHT_SHIFT
+                                 &mt LEFT_GUI CAPS  &kp LC(BACKSPACE)  &kp BACKSPACE        &kp RS(ENTER)  &kp LA(F13)   &kp RIGHT_SHIFT
             >;
         };
 
